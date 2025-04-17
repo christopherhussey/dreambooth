@@ -1,0 +1,8 @@
+predict: predict.py
+input:
+  prompt:
+    type: string
+    default: "photo of christopherhusseyphotoshoot person"
+    description: "Enter a prompt to generate an image."
+output:
+  type: image
